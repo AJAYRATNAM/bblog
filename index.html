@@ -3,7 +3,7 @@
   <head>
        <title>firstpage</title>
   </head>
-  <body >
+  <body style="background-color:yellow">
   <input id="age" placeholder="enter number of stones"/>
   <input type="button" onclick="mygame()" value="START"/><br/>
   <script>
@@ -17,13 +17,15 @@
      {
      if(c==0){
         document.write("<h1>player-1 lose<h2>");
+        document.write("<h1>player-2 won<h2>");
          break;
              }
-      alert(c);
-      si=prompt("Now player-1 pick stones between 1-3");
+      //alert(c);
+      si=prompt("<h2>Now player-1 pick stones between 1-3</h2>");
       c=c-si;
       if(c==0){
           document.write("<h1>player-1 won</h1>");
+          document.write("<h1>player-2 lose</h1>");
            break;
               }
       alert(c);
