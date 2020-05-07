@@ -1,5 +1,3 @@
-input.placeholder{
+.bond input{
    text-align:center;
-   }
-input[type="button"]{
-   text-align:center;}
+}
