@@ -4,7 +4,7 @@
        <title>firstpage</title>
   </head>
   <body style="background-color:yellow;">
-  <input height=25%; width=100%; id="age" placeholder="enter number of stones"/>
+  <input id="age" placeholder="enter number of stones"/>
   <input type="button" onclick="mygame()" value="START"/><br/>
   <script>
    function mygame()
@@ -21,7 +21,8 @@
          break;
              }
       //alert(c);
-      si=prompt("Now player-1 pick stones between 1-3",c);
+      si=prompt("Now player-1 pick stones between 1-3");
+      si=prompt(c); 
       c=c-si;
       if(c==0){
           document.write("<h1>player-1 won</h1>");
