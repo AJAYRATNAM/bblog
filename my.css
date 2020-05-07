@@ -1,5 +1,6 @@
 body {
    background-image:url("https://www.gstatic.com/webp/gallery/1.jpg");
-   height:100%;
+   background-size:cover;
+   background-position:center;
    background-repeat:no-repeat;
 }
