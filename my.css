@@ -1,5 +1,5 @@
 input.placeholder{
    text-align:center;
    }
-input.type{
+input[type="button"]:placeholder{
    text-align:center;}
