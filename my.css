@@ -1,3 +1,7 @@
 body{
-   background-image:url("https://i.ibb.co/yVY8mys/myimg.jpg");
+   background-image:url("myimg.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:center;
+   
 }
